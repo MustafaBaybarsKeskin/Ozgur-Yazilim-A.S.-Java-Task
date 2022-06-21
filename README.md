@@ -75,7 +75,7 @@ Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adıml
 4. Adım: Projemizi IDE'ye ekledikten sonra proje adının solunda minik bir ok buluncakatır buna tıklayalım ve klasörümüzün içeriğini görüntüleyelim akabinde pom.xml dosyasını çift tıklayarak açalım.
 5. Adım: pom.xml dosayını açtığımız pencereye gelelim ve IDE'nin en üst noktasındaki bardan Run > Run As > 5 Maven install seçenklerini izleyelim bu sayede projemizi IDE gerektirmeden çalıştırmamıza olanak sağlayan .jar uzantılı dosyayı elde edeceğiz. 
 6. Adım: İlgili doysa proje klasörünün içerisinde yer alan target klasörünün içerisinde oluşturulmaktadır. Dilerseniz pom.xml içerisinde yer alan '<finalName>Spring-Boot-Application-Executable-Jar</finalName>' kısmı değiştirerek dosyayı farklı bir şekilde adlandırabilirsiniz. 
-7. Adım: Elde etmiş olduğumuz dosyayı herhangi bir dosya yolunda çalıştırabilirsiniz. Komut istemcimizi açalım ve .jar uzantılı dosyamızın bulunduğu konuma gelelim akabinde java -jar dosya_adi.jar komutu ile projemizi çalıştırabiliriz. Dilerseniz ilgili dosyaya [buradaki] (https://drive.google.com/file/d/1ircKeXJfkvvwurlgP7PI5OLmsVMVmGSy/view?usp=sharing) bağlantıdan da ulaşabilirsiniz.
+7. Adım: Elde etmiş olduğumuz dosyayı herhangi bir dosya yolunda çalıştırabilirsiniz. Komut istemcimizi açalım ve .jar uzantılı dosyamızın bulunduğu konuma gelelim akabinde java -jar dosya_adi.jar komutu ile projemizi çalıştırabiliriz. Dilerseniz ilgili dosyaya [buradaki](https://drive.google.com/file/d/1ircKeXJfkvvwurlgP7PI5OLmsVMVmGSy/view?usp=sharing) bağlantıdan da ulaşabilirsiniz.
 
 
 ## Yazar
