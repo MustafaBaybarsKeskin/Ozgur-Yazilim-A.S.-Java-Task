@@ -1,6 +1,7 @@
 # Ozgur Yazilim A.S. Java Task
 Bu repository, Ozgur Yazilim A.S. staj kabulu için Java programlama dilinin Spring framework'ü ile ilgili çalışmalar içerir.
 
+
 ## Başlarken
 Oluşturulan bu projede basit bir laboratuvar raporlama uygulaması geliştirilmeye çalışılmıştır. Bu projede olması gerekenler ve bazı özellikler şunlardır:
 
@@ -11,6 +12,7 @@ Oluşturulan bu projede basit bir laboratuvar raporlama uygulaması geliştirilm
 - Var olan bir rapor silinebilmektedir.
 
 Bu projeyi hazırlamak için Java dilinin Spring framework'ünü kullanacağız.
+
 
 ## Gereksinimler
 ```
@@ -66,6 +68,7 @@ Bootstrap, kullanılabilir kod parçalarından oluşan açık kaynaklı ve ücre
 
 ### H2 Database
 H2; bellekte çalışan bir SQL veritabanıdır. Performansından ve diğer SQL veritabanlarını taklit edebilmesinden dolayı, yazulım geliştirme aşamasında sıkça kullanılır.
+
 
 ## Kurulum
 Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adımlar şöyledir (Eclipse IDE için hazırlanmıştır):
