@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Create/Edit Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+
+    <div class="container my-5" style="padding-top: 30px;">
+    
+        <h3>Create / Edit Report</h3>
+        
+        
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-10">
+                    <form th:action="@{/createReport}" th:object="${report}" method="post">
+                    
+                    	<div class="row">
+                        	
+                            <div class="form-group col-md-8">
+                                <label for="Name Surname" class="col-form-label">Name Surname</label> 
+                                <input type="text" th:field="*{nameSurname}" class="form-control" 
+                                            id="nameSurname" placeholder="Name Surname" maxlength="100" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="laborant" class="col-form-label">Laborant</label> 
+                                <input type="text" th:field="*{laborant}" class="form-control" 
+                                            id="laborant" placeholder="laborant" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="Social Security Number" class="col-form-label">Social Security Number</label> 
+                                <input type="number" th:field="*{socialSecurityNumber}" class="form-control" 
+                                            id="socialSecurityNumber" placeholder="Social Security Number" maxlength="11" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="diagnosis" class="col-form-label">Diagnosis</label> 
+                                <input type="text" th:field="*{diagnosis}" class="form-control" 
+                                            id="diagnosis" placeholder="Diagnosis" maxlength="250" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="Diagnosis Detail" class="col-form-label">Diagnosis Detail</label> 
+                                <input type="text" th:field="*{diagnosisDetail}" class="form-control" 
+                                            id="diagnosis_detail" placeholder="Diagnosis Detail" maxlength="250" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="Date Of Report" class="col-form-label">Date Of Report</label> 
+                                <input type="datetime-local" th:field="*{dateOfReport}" class="form-control" 
+                                            id="date_of_report" placeholder="Date Of Report" required/>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="Image" class="col-form-label">Image</label> 
+                                <input type="file" th:field="*{data}" class="form-control" accept="image/png, image/jpeg"
+                                            id="data" placeholder="Image" required/>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="submit" class="btn btn-primary" value=" Submit ">
+                            </div>
+
+                            <input type="hidden" id="id" th:field="*{id}">
+    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
