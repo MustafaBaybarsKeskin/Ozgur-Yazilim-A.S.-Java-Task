@@ -79,7 +79,7 @@ Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adıml
 
 3. Adım: IDE olmadan .jar dosyası elde edebilmek için Apache Maven'in cihazınızda yüklü olması gerek eğer değilse https://maven.apache.org/install.html adresinden gerekli adımları takip ederek kurulumu sağyabilirsiniz.
 
-4. Adım: Kurulumu tamamladıktan sonra komut istemcimizi çalıştıralım ve komut istemcisinden proje klasörümüzün konumuna gelelim ardından 'mvn package' komutunu istemcimize yazalım bu sayede projemiz bir paket haline getirilecektir. Dosyaya proje klasörü içerisinde yer alan target klasöründen erişebilirsiniz.
+4. Adım: Kurulumu tamamladıktan sonra komut istemcimizi çalıştıralım ve komut istemcisinden proje klasörümüzün konumuna gelelim ardından 'mvn package' komutunu istemcimize yazalım bu sayede projemiz bir paket haline getirilecektir. Oluşturulmuş olan .jar uzantılı pakete, proje klasörü içerisinde yer alan target klasöründen erişebilirsiniz.
 
 5. Adım: Elde etmiş olduğumuz dosyayı herhangi bir dosya yolunda çalıştırabilirsiniz. Komut istemcimizi açalım ve .jar uzantılı dosyamızın bulunduğu konuma gelelim akabinde java -jar dosya_adi.jar komutu ile projemizi çalıştırabiliriz. Dilerseniz ilgili dosyaya [buradaki](https://drive.google.com/file/d/1ircKeXJfkvvwurlgP7PI5OLmsVMVmGSy/view?usp=sharing) bağlantıdan da ulaşabilirsiniz.
 
