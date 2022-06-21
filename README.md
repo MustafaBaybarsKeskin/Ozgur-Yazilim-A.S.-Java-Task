@@ -71,7 +71,7 @@ H2; bellekte çalışan bir SQL veritabanıdır. Performansından ve diğer SQL 
 
 
 ## Kurulum
-Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adımlar şöyledir (Eclipse IDE için hazırlanmıştır):
+Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adımlar şöyledir (IDE kullanmadan):
 
 1. Adım: Projemizi cihazımıza klonlayalım (git clone https://github.com/MustafaBaybarsKeskin/Ozgur-Yazilim-A.S.-Java-Task.git). Git istemcisini kullanmak istemezseniz sağ üst kısımdan code seçeneğini tıklayınız ardından Download ZIP'i seçerek projeyi cihazınıza .zip formatında indrirmiş olursunuz.
 
@@ -81,7 +81,7 @@ Projemizi komut istemcisinden çalıştırabilmek için izlemeniz gereken adıml
 
 4. Adım: Kurulumu tamamladıktan sonra komut istemcimizi çalıştıralım ve komut istemcisinden proje klasörümüzün konumuna gelelim ardından 'mvn package' komutunu istemcimize yazalım bu sayede projemiz bir paket haline getirilecektir. Oluşturulmuş olan .jar uzantılı pakete, proje klasörü içerisinde yer alan target klasöründen erişebilirsiniz.
 
-5. Adım: Elde etmiş olduğumuz dosyayı herhangi bir dosya yolunda çalıştırabilirsiniz. Komut istemcimizi açalım ve .jar uzantılı dosyamızın bulunduğu konuma gelelim akabinde java -jar dosya_adi.jar komutu ile projemizi çalıştırabiliriz. Dilerseniz ilgili dosyaya [buradaki](https://drive.google.com/file/d/1ircKeXJfkvvwurlgP7PI5OLmsVMVmGSy/view?usp=sharing) bağlantıdan da ulaşabilirsiniz.
+5. Adım: Elde etmiş olduğumuz dosyayı herhangi bir dosya yolunda çalıştırabilirsiniz. Komut istemcimizi açalım ve .jar uzantılı dosyamızın bulunduğu konuma gelelim akabinde java -jar dosya_adi.jar komutu ile projemizi çalıştırabiliriz. Dilerseniz ilgili dosyaya [buradaki](https://drive.google.com/file/d/1ircKeXJfkvvwurlgP7PI5OLmsVMVmGSy/view?usp=sharing) bağlantıdan da ulaşabilirsiniz. Projeyi çalıştırdıktan sonra herhangi bir tarayıcıyı açarak, adres çubuğuna localhost:8080 yazarak projeye ulaşabilirsiniz.
 
 
 ## Yazar
