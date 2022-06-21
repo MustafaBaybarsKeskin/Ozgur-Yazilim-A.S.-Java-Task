@@ -5,6 +5,3 @@ Projemizi çalıştırabilmemiz için Java SE Development Kit'e ihtiyacımızı 
 
 # Seçimler
 Veritabanı olarak H2 Database'i tercih ettim bunun en temel nedeni, disk tabanlı veya bellek içi veritabanları ve tablolar, salt okunur veritabanı desteği, geçici tablolar özelikklerinin bulunmasıdır.
-
-# Not
-Daha önce Spring Boot ile hiç proje geliştirmemiş olmamdan mütevellit bir çok noktada eksiklerim bulunmuş olabilir, yine aynı sebepten dolayı seçimler konusunda da çok fazla detaya inemiyorum. Süre ile ilgili de problemim olduğundan tam olarak verimli bir proje hazırlayamadığımdan dolayı sizlerden özür dilerim, ilgili problemlere rağmen elimden gelenin en iyisini yapmaya çalıştım. Lütfen, not olarak eklediğim bu son kısmı bahane olarak algılamayınız.
